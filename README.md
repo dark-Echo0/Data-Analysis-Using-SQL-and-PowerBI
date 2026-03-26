@@ -1,5 +1,5 @@
 # **Data Analysis using SQL and Power BI**
-## Disclaimer - Disclaimer: The dataset used in this analysis is fictional and was obtained from Kaggle for educational purposes only.
+## Disclaimer: The dataset used in this analysis is fictional and was obtained from Kaggle for educational purposes only.
 
 ## USE of SQL SERVER
 In these part, I utilize SQL SERVER for Data preperation, Data cleaning, and data validation. I follow the concept of  Medallion Architure frow raw data to clead data for visualization.
