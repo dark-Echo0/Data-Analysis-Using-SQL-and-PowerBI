@@ -13,7 +13,8 @@ To see the findings, refer to the document "Exploratory Analysis for SalesDB dat
 These document use to compare or validate the result in PowerBi graph to make sure the data is correct. 
 
 ## USE of POWER BI
-In these part, I use Power BI for data visualization.
+In these part, I use Power BI for data visualization. The image below is the Dashboard I created in PowerBI
 a. Create a data modeling by connecting the foreign key of the dimension table to fact table.
 b. Use appropriate graph to visualize the ideas extracted from data set.
+![](SalesDB-Visualization in Power BI.png)
 
