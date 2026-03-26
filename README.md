@@ -9,7 +9,7 @@ c. Implement Data cleaning such as removing duplicates, fix text format, standar
 d. Saved the clean table in the gold schema and create View. 
 
 ## Conduct Exploratory Analysis
-To see the findings, refer to the document "Exploratory Analysis for SalesDB database.pdf" uploaded in these repository. 
+To see the findings, refer to the document ***Exploratory Analysis for SalesDB database.pdf*** uploaded in these repository. 
 These document use to compare or validate the result in PowerBi graph to make sure the data is correct. 
 
 ## USE of POWER BI
