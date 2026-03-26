@@ -1,20 +1,71 @@
 # **Data Analysis using SQL and Power BI**
-## Disclaimer: The dataset used in this analysis is fictional and was obtained from Kaggle for educational purposes only.
+## Disclaimer: The dataset used in this project is fictional and was obtained from Kaggle for educational purposes only.
 
 ## USE of SQL SERVER
-In these part, I utilize SQL SERVER for Data preperation, Data cleaning, and data validation. I follow the concept of  Medallion Architure frow raw data to clead data for visualization.
-a. Create Database name SalesDB
-b. Insert the csv File using BULK Insert command in the bronze schema.
-c. Implement Data cleaning such as removing duplicates, fix text format, standardized dates and handles missing values
-d. Saved the clean table in the gold schema and create View. 
+In this project, I utilized SQL Server for data preparation, cleaning, and validation. The workflow follows the Medallion Architecture, transforming raw data into clean, analytics-ready data for visualization.
 
-## Conduct Exploratory Analysis
-To see the findings, refer to the document ***Exploratory Analysis for SalesDB database.pdf*** uploaded in these repository. 
-These document use to compare or validate the result in PowerBi graph to make sure the data is correct. 
+ Steps Performed:
+
+a. Database Creation
+- Created a database named SalesDB to store and manage all datasets.
+
+b. Data Ingestion (Bronze Layer)
+- Imported raw CSV data into the bronze schema using the BULK INSERT command.
+- This layer retains the original, unprocessed data.
+
+c. Data Cleaning & Transformation (Silver Layer)
+- Removed duplicate records.
+- Standardized text formats (e.g., capitalization, trimming spaces).
+- Converted and standardized date formats.
+- Handled missing or null values appropriately.
+
+d. Data Modeling (Gold Layer)
+- Stored the cleaned and transformed data in the gold schema.
+- Created views for easy access and reporting.
+- Prepared the dataset for downstream visualization tools (e.g., Power BI).
+
+## Validation & Exploratory Analysis
+To review the findings, refer to the document “Exploratory Analysis for SalesDB Database.pdf” uploaded in this repository.
+This document is used to:
+- Validate and cross-check the results shown in Power BI visualizations.
+- Ensure consistency and accuracy between the SQL-processed data and the dashboard outputs.
+- Support data integrity through exploratory analysis.
 
 ## USE of POWER BI
-In these part, I use Power BI for data visualization. The image below is the Dashboard I created in PowerBI
-a. Create a data modeling by connecting the foreign key of the dimension table to fact table.
-b. Use appropriate graph to visualize the ideas extracted from data set.
+In this phase, I utilized Power BI to create interactive dashboards and visualize insights derived from the dataset.
+Key Steps Performed:
+a. Data Modeling
+- Established relationships by connecting foreign keys from the fact table to the corresponding dimension tables
+- Designed a star schema to ensure efficient querying and accurate analysis
+
+b. Data Visualization
+- Selected appropriate charts (e.g., bar charts, line graphs, and KPIs) to effectively communicate insights
+- Built an interactive dashboard to highlight key trends, patterns, and business metrics
+  
 ![](image/SalesDB-Visualization.png)
+
+## Key Insights
+- Total Sales trended down, resulting in a 0.79% decrease between January 2014 and December 2014.
+- Total Sales started trending down on May 2014, falling by 4.41% ($395,122.5) in 6 months.
+- At $13,337,300.5, Bangladesh had the highest Total Sales and was 122.56% higher than China, which had the lowest Total Sales at $5,992,661.
+- Bangladesh accounted for 12.65% of Total Sales.
+- Across all 10 product category, Total Sales ranged from $386,461 to $3,676,606.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
