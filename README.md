@@ -1,5 +1,14 @@
 # **Data Analysis using SQL and Power BI**
-## Disclaimer: The dataset used in this project is fictional and was obtained from Kaggle for educational purposes only.
+
+## Preview of the Dashboard
+![](image/SalesDB-Visualization.png)
+
+## Key Insights
+- Total Sales trended down, resulting in a 0.79% decrease between January 2014 and December 2014.
+- Total Sales started trending down on May 2014, falling by 4.41% ($395,122.5) in 6 months.
+- At $13,337,300.5, Bangladesh had the highest Total Sales and was 122.56% higher than China, which had the lowest Total Sales at $5,992,661.
+- Bangladesh accounted for 12.65% of Total Sales.
+- Across all 10 product category, Total Sales ranged from $386,461 to $3,676,606.
 
 ## USE of SQL SERVER
 In this project, I utilized SQL Server for data preparation, cleaning, and validation. The workflow follows the Medallion Architecture, transforming raw data into clean, analytics-ready data for visualization.
@@ -41,15 +50,10 @@ a. Data Modeling
 b. Data Visualization
 - Selected appropriate charts (e.g., bar charts, line graphs, and KPIs) to effectively communicate insights
 - Built an interactive dashboard to highlight key trends, patterns, and business metrics
-  
-![](image/SalesDB-Visualization.png)
 
-## Key Insights
-- Total Sales trended down, resulting in a 0.79% decrease between January 2014 and December 2014.
-- Total Sales started trending down on May 2014, falling by 4.41% ($395,122.5) in 6 months.
-- At $13,337,300.5, Bangladesh had the highest Total Sales and was 122.56% higher than China, which had the lowest Total Sales at $5,992,661.
-- Bangladesh accounted for 12.65% of Total Sales.
-- Across all 10 product category, Total Sales ranged from $386,461 to $3,676,606.
+## Disclaimer: The dataset used in this project is fictional and was obtained from Kaggle for educational purposes only.
+  
+
 
 
 
